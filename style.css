@@ -1,0 +1,70 @@
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    text-align: center;
+    font-family: "Mrs Sheppards"; 
+    font-size: 35px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 38.5px;
+    color: teal;
+    -webkit-text-stroke: 1px black;
+}
+
+#container {
+    display: grid;
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+}
+
+#options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.item {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+}
+
+.highlighted {
+    background-color: black;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 5px;
+    text-decoration: none;
+    background: #0069ed;
+    color: #ffffff;
+    transition: background 250ms ease-in-out, transform 150ms ease;
+    -webkit-appearance: none;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+button:hover,button:focus {
+    background: #0053ba;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
